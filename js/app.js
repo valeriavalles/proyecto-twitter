@@ -4,7 +4,9 @@ window.addEventListener('load', function() {
   var boton = document.getElementById('save');
   var lista = document.getElementById('container-links');
   var contador = document.getElementById('contador');
+ 
   // agregandole evento al boton tweet
+  
   boton.addEventListener('click', function(event) {
     if (area.value) {
       var li = document.createElement('li');
@@ -13,6 +15,11 @@ window.addEventListener('load', function() {
       li.appendChild(link);
       lista.appendChild(li);
       area.value = '';
+
+      time = moment().format('LT');
+      spantime = document.createElement('span');
+      spantime.textContent = time;
+      li.appendChild(spantime);
     }
   });
   // habilitando y desabilitando el boton tweet
@@ -36,4 +43,6 @@ window.addEventListener('load', function() {
     this.style.cssText = 'height:' + this.scrollHeight + 'px';
     contador.textContent = 140 - area.value.length;
   };
-});   
+}); 
+
+span.textContent = moment().format('LT');  
