@@ -1,6 +1,6 @@
 ## Twitter ##
 
-En un reto de codigo Laboratoria, que se nos dio con la finalidad de potenciar nuestro conocimiento.En este reto lo que se hace es crear una replica de la pagina de twitter aplicando conocimentos como html, css y js para darle el dinanismo para ello seguimos un flujo de versiones .
+Es un reto de codigo Laboratoria, que se nos dio con la finalidad de potenciar nuestro conocimiento.En este reto lo que se hace es crear una replica de la pagina de twitter aplicando conocimentos como html, css y js para darle el dinanismo para ello seguimos un flujo de versiones .
 
 
 #### Flujo de versiones #### 
